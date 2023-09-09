@@ -1,0 +1,75 @@
+.form{
+    width: 750px;
+    margin-left: 280px;
+    margin-top: 15px;
+    border: 1px solid #000000;
+    background-color: white;
+  
+}
+
+.logo{
+    width: 170px;
+    height: 150px;
+    margin-top: 8px;
+}
+
+.preguntas{
+    font-size: 18px;
+}
+
+.fie{
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.custom-radio input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 2px solid #333;
+}
+
+.encuesta{
+  font-size: 22px;
+  margin-left: 8px;
+}
+
+.enviar{
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 630px;
+  width: 80px;
+  background-color: transparent;
+  border: 2px solid #000000;
+  margin-top: 15px;
+}
+
+/*------------------------------------------------------------*/
+
+.container {
+    display: flex;
+  }
+  
+  .div1 {
+    flex: 1;
+    padding: 0px;
+  }
+  
+  .div2 {
+    flex: 8;
+    padding: 0px;
+  }
+
+  /*-----------------------fondo dinamico-------------------------------*/
+
+  body {
+    background-image: url('https://i.pinimg.com/736x/02/2e/8b/022e8b39d275dd074797b8f8728ab980.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Esto fija la imagen de fondo */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}

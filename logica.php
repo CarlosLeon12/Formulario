@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Andres Leon</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="calificar.js"></script>
+    
+</head>
+
+<body>
+
+<div>
+
+       <div>
+            <fieldset class="form">
+
+                <div class="container">
+                    <div class="div1">
+                        <img class="logo" src="https://th.bing.com/th/id/OIP.VvFXt7yHPaJrMwRi3QTOjwHaGk?pid=ImgDet&rs=1" alt="">
+                    </div>
+                    
+                    <div class="div2" style="text-align: center; margin-top: 25px;">
+                            <label style="font-size: 35px;" for="">Universiada Mariano Galvez de Guatemala</label><br><br>
+                            <label style="font-size: 22px;" for="">Responda las siguientes preguntas de forma correcta</label>
+                    </div>
+                </div>
+
+                <div class="custom-radio">
+                  <fieldset class="fie"></fieldset>
+                  <form id="quizForm" action="" method="post">
+                    <!--pregunta 1------------------------------------------------------->
+                     <p class="encuesta">1. ¿Qué lenguaje de marcado se utiliza para estructurar el contenido de una página web?</p>
+                     
+                     <input type="radio" name="q1" value="a" id="opcion1A">
+                     <label for="opcion1A" style="font-size: 22px;"> A) JavaScript</label><br><br>
+
+                     <input type="radio" name="q1" value="b" id="opcion1B">
+                     <label for="opcion1B" style="font-size: 22px;"> B) HTML</label><br><br>
+
+                     <input type="radio" name="q1" value="c" id="opcion1C">
+                     <label for="opcion1C" style="font-size: 22px;"> C) CSS</label><br><br>
+
+                     <!--pregunta 2------------------------------------------------------->
+                     <p class="encuesta">2. ¿Cuál de las siguientes opciones NO es un lenguaje de programación del lado del servidor?</p>
+                     
+                     <input type="radio" name="q2" value="a" id="opcion1A">
+                     <label for="opcion1A" style="font-size: 22px;"> A) PHP</label><br><br>
+
+                     <input type="radio" name="q2" value="b" id="opcion1B">
+                     <label for="opcion1B" style="font-size: 22px;"> B) JavaScript</label><br><br>
+
+                     <input type="radio" name="q2" value="c" id="opcion1C">
+                     <label for="opcion1C" style="font-size: 22px;"> C) Python</label><br><br>
+
+                     <!--pregunta 3------------------------------------------------------->
+                     <p class="encuesta">3. ¿JavaScript y Java son el mismo lenguaje de programacion?</p>
+                     
+                     <input type="radio" name="q3" value="a" id="opcion3A">
+                     <label for="opcion3A" style="font-size: 22px;"> A) Verdadero</label><br><br>
+
+                     <input type="radio" name="q3" value="b" id="opcion3B">
+                     <label for="opcion3B" style="font-size: 22px;"> B) Falso</label><br><br>
+
+                     <!--pregunta 4------------------------------------------------------->
+                     <p class="encuesta">4. ¿Qué tecnología se utiliza para estilizar y diseñar el aspecto de una página web?</p>
+                     
+                     <input type="radio" name="q4" value="a" id="opcion4A">
+                     <label for="opcion4A" style="font-size: 22px;"> A) HTML</label><br><br>
+
+                     <input type="radio" name="q4" value="b" id="opcion4B">
+                     <label for="opcion4B" style="font-size: 22px;"> B) JavaScript</label><br><br>
+
+                     <input type="radio" name="q4" value="c" id="opcion4C">
+                     <label for="opcion4C" style="font-size: 22px;"> C) CSS</label><br><br>
+
+                    <!--pregunta 5------------------------------------------------------->
+                    <p class="encuesta">5. ¿Cuál es el propósito principal de las consultas SQL en el desarrollo web?</p>
+                     
+                     <input type="radio" name="q5" value="a" id="opcion5A">
+                     <label for="opcion5A" style="font-size: 22px;"> A) Validar formularios</label><br><br>
+
+                     <input type="radio" name="q5" value="b" id="opcion5B">
+                     <label for="opcion5B" style="font-size: 22px;"> B) Crear animaciones</label><br><br>
+
+                     <input type="radio" name="q5" value="c" id="opcion5C">
+                     <label for="opcion5C" style="font-size: 22px;"> C) Gestionar y consultar bases de datos</label><br><br>
+
+                   </form>
+          </div>
+
+          <fieldset class="fie"></fieldset>
+
+            <div>
+                <Button class="enviar" onclick="calificarFormulario()">Enviar Formulario</Button>
+                <div style="margin-top: 30px;">
+                    <label for="">Tus respuestas seran evidas y se otorgara tu calificacion correspondiente</label>
+                </div>
+            </div>
+
+            </fieldset>
+       </div>
+    </div>
+
+
+    
+</body>
+</html>
+
